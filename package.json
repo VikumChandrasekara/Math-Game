@@ -1,0 +1,30 @@
+{
+  "name": "studio",
+  "version": "0.0.1",
+  "description": "A template to build 2D games using Pixi.js",
+  "main": "index.js",
+  "scripts": {
+    "run_staging": "node_modules/.bin/webpack-dev-server --env=staging_server",
+    "run_production": "node_modules/.bin/webpack-dev-server --env=production_server",
+    "build_staging": "webpack --env=staging_build",
+    "build_production": "webpack --env=production_build"
+  },
+  "author": "Buddhika Jayawickrama",
+  "license": "MIT",
+  "dependencies": {
+    "pixi-sound": "3.0.4",
+    "pixi.js": "5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "javascript-obfuscator": "^2.9.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-obfuscator": "^2.6.0"
+  }
+}

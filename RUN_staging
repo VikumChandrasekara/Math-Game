@@ -1,0 +1,9 @@
+Scripts available in studio via `npm run-script`:
+  >>RUN_staging
+    webpack-dev-server --env=staging_server
+  >>RUN_production
+    webpack-dev-server --env=production_server
+  ##BUILD_staging
+    webpack --env=staging_build
+  ##BUILD_production
+    webpack --env=production_build
